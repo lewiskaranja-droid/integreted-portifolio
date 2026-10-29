@@ -336,6 +336,24 @@ h2 span {
   letter-spacing: 1px;
 }
 
+/* Display real images in project cards */
+.project-image {
+    height: 200px;
+    min-height: 200px;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Make each image fit the project card */
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 7px;
+}
+
+
 .project-image.purple {
   background: linear-gradient(135deg, #533a89, #a69aff);
 }
